@@ -1,0 +1,82 @@
+[
+    {
+        "id": "001",
+        "productName": "Nike x Travis Scott Air Force 1 'Cactus Jack'",
+        "specialOffer": 350,
+        "normalPrice": 200,
+        "imageName": "airforce1cactus-jack.jpg",
+        "description": "Travis Scott's collaboration with Nike and Jordan"
+    },
+    {
+        "id": "002",
+        "productName": "Adidas x Nice Kicks Ultra Boost 1.0",
+        "specialOffer": 250,
+        "normalPrice": 190,
+        "imageName": "adidas-consortium-ultraboost-x-nice-kicks.jpg",
+        "description": "Leave it to Nice Kicks to wrap it in tie-dye and make it feel like an essential all over again."
+    },
+    {
+        "id": "003",
+        "productName": "Air Jordan 12 'Black/White",
+        "specialOffer": 280,
+        "normalPrice": 200,
+        "imageName": "air-jordan-xii-black-white.jpg",
+        "description": " It's not high-concept, but damn does it look good."
+    },
+    {
+        "id": "004",
+        "productName": "Air Jordan 1 'Obsidian'",
+        "specialOffer": 150,
+        "normalPrice": 180,
+        "imageName": "air-jordan-i-obsidian.jpg",
+        "description": "It's a UNC-inspired Air Jordan 1, and the colors themselves are extremely wearable."
+    },
+    {
+        "id": "005",
+        "productName": "Nike SB x Parra Pack",
+        "specialOffer": 200,
+        "normalPrice": 250,
+        "imageName": "sb-dunk-low-parra.jpg",
+        "description": "It's tough to choose a favorite, but the Blazer, sans mini-swoosh, might just be it."
+    },
+    {
+        "id": "006",
+        "productName": "Nike x Sacai LDWaffle",
+        "specialOffer": 500,
+        "normalPrice": 250,
+        "imageName": "sacai-ld-waffle-2-colors.jpg",
+        "description": "One of the biggest releases this year."
+    },
+    {
+        "id": "007",
+        "productName": "Air Jordan x Travis Scott 1 'Cactus Jack'",
+        "specialOffer": 500,
+        "normalPrice": 180,
+        "imageName": "travis-scott-x-air-jordan-1.jpg",
+        "description": "ravis Scott's partnership with Jordan has been a fan favorite from the jump"
+    },
+    {
+        "id": "008",
+        "productName": "Y-3 Futurecraft Runner 4D II",
+        "specialOffer": 330,
+        "normalPrice": 500,
+        "imageName": "01-31-y-3-futurecraft-4d.jpg",
+        "description": "Japanese designer Yohji Yamamoto brings his fashion-forward mentality to the Adidas 4D midsole with this version of the Y-3 runner."
+    },
+    {
+        "id": "009",
+        "productName": "New Balance x Bodega 997S 'No Days Off'",
+        "specialOffer": 150,
+        "normalPrice": 190,
+        "imageName": "04-6-new-balance-x-bodega-997s-no-days-off.jpg",
+        "description": "SNew Balance's 997 Sport got a remix courtesy of Bodega in April of 2019"
+    },
+    {
+        "id": "010",
+        "productName": "Adidas Yeezy Boost 350 V2 'Clay'",
+        "specialOffer": 300,
+        "normalPrice": 220,
+        "imageName": "03-30-adidas-yeezy-boost-350-v2-22clay-22.jpg",
+        "description": "Adidas recently upped the production of a lot of the shoes in its collaborative line with Kanye West."
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "./build",
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./app/server.ts"
+    ]
+}
