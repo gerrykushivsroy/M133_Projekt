@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: {
         home: './app/views/assets/home.ts',
-        add: './app/views/assets/add.ts'
+        detail: './app/views/assets/detail.ts'
     },
     module: {
         rules: [

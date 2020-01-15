@@ -13,12 +13,20 @@ app.use(expressSession({
     saveUninitialized: true // forces an uninitialized session to be stored
 }));
 
+
 /* frontend */
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "/views/home.html"));
 });
-app.get("/add", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/add.html"));
+app.get("/detail/:id", (req, res) => {
+    var id = req.params.id;
+
+    if (!id) {
+        res.end();
+    }
+    res.cookie("productId", id);
+
+    res.sendFile(path.join(__dirname, "/views/detail.html"));
 });
 
 /* api */
@@ -29,6 +37,17 @@ app.get("/api/products", (req, res) => {
 
     res.json(ProductsJson);
 });
+app.get("/api/products/:id", (req, res) => {
+    var id = req.params.id;
+
+    let product = loadProduct(id);
+    
+    if(req.session.products == undefined) {
+        req.session.product = product;
+    }
+
+    res.json(product);
+});
 app.post("/api/products", (req, res) => {
     req.session.products = <Product[]>[
         ...req.session.products,
@@ -37,6 +56,10 @@ app.post("/api/products", (req, res) => {
 
     res.sendStatus(200);
 })
+
+function loadProduct(id: string){
+    return ProductsJson.find(p => p.id.toString() === id);
+}
 
 /* libs & assets */
 app.use("/assets", express.static(path.join(__dirname, "/views/assets")));

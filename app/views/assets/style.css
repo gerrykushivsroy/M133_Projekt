@@ -2,3 +2,9 @@
     display: grid !important; 
     grid-template-columns: repeat(4, auto) !important; 
 }
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
