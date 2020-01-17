@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SneakerStore BBZW</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+
+<body>
+    <h1>SneakerStore BBZW</h1>
+    <div class="container">
+        <div class="row">
+        </div>
+        <a href="/cart">
+            <button><%=Number.parseFloat(total).toFixed(2) %> CHF</button>
+        </a>
+                        
+                <div class="row">
+                    <% for (p of products) { %>
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <a href="/product/<%=p.id%>">
+                            <div class="productContainer">
+                                <img src='/assets/<%= p.imageName %>' width="100%">
+                                <p class="productTitle"><%= p.productName %></p>
+                                <p><%=  p.specialOffer%> CHF  <%= p.normalPrice %> CHF</p>
+                            </div>
+                        </a>
+                    </div>
+                    <%} %>
+           </div>
+    </div>
+</body>
+
+</html>
