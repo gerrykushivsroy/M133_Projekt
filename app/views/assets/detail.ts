@@ -12,7 +12,7 @@ fetch("/api/products/" + id[1])
                 <div class="card-image">
                 <img src=".././assets/pics/${product.imageName}" alt="" width = "400" height = "275">
                 </div>
-                <div class="card-content">
+                <div class="column col-xs-6">
                 
                 <div class="content">
                     <p>

@@ -2,8 +2,8 @@
     {
         "id": "001",
         "productName": "Nike x Travis Scott Air Force 1 'Cactus Jack'",
-        "specialOffer": 350,
-        "normalPrice": 200,
+        "specialOffer": 200,
+        "normalPrice": 500,
         "imageName": "airforce1cactus-jack.jpg",
         "description": "Travis Scott's collaboration with Nike and Jordan"
     },
@@ -11,15 +11,15 @@
         "id": "002",
         "productName": "Adidas x Nice Kicks Ultra Boost 1.0",
         "specialOffer": 250,
-        "normalPrice": 190,
+        "normalPrice": 260,
         "imageName": "adidas-consortium-ultraboost-x-nice-kicks.jpg",
         "description": "Leave it to Nice Kicks to wrap it in tie-dye and make it feel like an essential all over again."
     },
     {
         "id": "003",
         "productName": "Air Jordan 12 'Black/White",
-        "specialOffer": 280,
-        "normalPrice": 200,
+        "specialOffer": 220,
+        "normalPrice": 400,
         "imageName": "air-jordan-xii-black-white.jpg",
         "description": " It's not high-concept, but damn does it look good."
     },
@@ -42,8 +42,8 @@
     {
         "id": "006",
         "productName": "Nike x Sacai LDWaffle",
-        "specialOffer": 500,
-        "normalPrice": 250,
+        "specialOffer": 300,
+        "normalPrice": 700,
         "imageName": "sacai-ld-waffle-2-colors.jpg",
         "description": "One of the biggest releases this year."
     },
@@ -51,7 +51,7 @@
         "id": "007",
         "productName": "Air Jordan x Travis Scott 1 'Cactus Jack'",
         "specialOffer": 500,
-        "normalPrice": 220,
+        "normalPrice": 1250,
         "imageName": "travis-scott-x-air-jordan-1.jpg",
         "description": "ravis Scott's partnership with Jordan has been a fan favorite from the jump"
     },
@@ -74,8 +74,8 @@
     {
         "id": "010",
         "productName": "Adidas Yeezy Boost 350 V2 'Clay'",
-        "specialOffer": 300,
-        "normalPrice": 220,
+        "specialOffer": 280,
+        "normalPrice": 350,
         "imageName": "03-30-adidas-yeezy-boost-350-v2-22clay-22.jpg",
         "description": "Adidas recently upped the production of a lot of the shoes in its collaborative line with Kanye West."
     }

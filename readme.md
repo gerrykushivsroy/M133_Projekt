@@ -1,18 +1,7 @@
-# Beispielprojekt (Heores) mit TypeScript
-> Ein Projekt zur Hilfestellung für Lernende der [BBZW](https://beruf.lu.ch/berufsbildungszentren/bbzw)
-
-Dieses Projekt zeigt, wie man eine einfache TypeScript-Applikation mit Backend (Express-Server)
-und Frontend (mit CSS-Framework, ohne JS/TS-Framework) bauen kann (Repetition über das gesamte Semester hinweg).
-
-In dieser Applikation können Helden angezeigt und erfasst werden.
-Diese Helden werden in einer Session gespeichert. Das bedeutet auf einer Installation kann jeder Benutzer
-seine eigenen Helden definieren.
-
 ### Installation
-1. Den ganzen Ordner kopieren
+1. Repo zu sich runter klonen mittels ```git clone https://github.com/gerrykushivsroy/M133_Projekt.git```
 2. Das Terminal öffnen und mittels ```cd```-Befehl in das Verzeichnis navigieren
 3. Alle Abhängigkeiten welche in "package.json" definiert wurden per ```npm install``` installieren
-(wenn Sie nur ```npm install``` ohnen einen konkreten Paketnamen ausführen, werden alle Abhängigkeiten installiert)
 
 ### Ausführen
 1. Im Terminal die Applikation mittels ```npm start``` starten

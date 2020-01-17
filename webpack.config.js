@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
     entry: {
         home: './app/views/assets/home.ts',
-        detail: './app/views/assets/detail.ts'
+        detail: './app/views/assets/detail.ts',
+        cart: './app/views/assets/cart.ts',
     },
     module: {
         rules: [

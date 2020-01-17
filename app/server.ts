@@ -16,7 +16,7 @@ app.use(expressSession({
 
 /* frontend */
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/views/home.html"));
+    res.sendFile(path.join(__dirname, "/views/pages/home.html"));
 });
 app.get("/detail/:id", (req, res) => {
     var id = req.params.id;
@@ -26,7 +26,15 @@ app.get("/detail/:id", (req, res) => {
     }
     res.cookie("productId", id);
 
-    res.sendFile(path.join(__dirname, "/views/detail.html"));
+    res.sendFile(path.join(__dirname, "/views/pages/detail.html"));
+});
+
+app.get("/cart", (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/pages/cart.html"));
+});
+
+app.get("/checkout", (req, res) => {
+    res.sendFile(path.join(__dirname, "/views/pages/checkout.html"));
 });
 
 /* api */
